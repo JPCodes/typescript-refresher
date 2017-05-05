@@ -1,0 +1,27 @@
+TypeScript
+
+- statically typed
+- camelCase
+- $ tsc filename.ts (converts to JS)
+- Config file (tsconfig.json):
+    {
+      "compilerOptions": {
+        "sourceMap": true
+      },
+      "files": [
+        "hello_typescript.ts" <-- add files here
+      ]
+    }
+- $ tsc (compiles files listed in config)
+- $ node hello_typescript (shows output)
+- var, let, const
+  - var fullName : string = "James Padilla";
+  - let userAdmin : boolean = true; (you can't redefine this the same way, unlike var)
+  - const versionNumber : number = 1.3;
+- string interpolation: "hey ${variableName}. nice to meet you."
+- tuple (collection)
+- enum (states)
+- function returns type of number: function generateAge (//stuff) : number {//stuff}
+- optional arg: (middleName?: string)
+- default arg: (planet = 'earth')
+- rest: (...players: string[]) (converts string args to array)
