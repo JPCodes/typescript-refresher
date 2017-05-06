@@ -3,6 +3,6 @@
     "sourceMap": true
   },
   "files": [
-    "typescript-refresherer.ts"
+    "typescript-closures.ts"
   ]
 }

@@ -25,3 +25,8 @@ TypeScript
 - optional arg: (middleName?: string)
 - default arg: (planet = 'earth')
 - rest: (...players: string[]) (converts string args to array)
+- function declarations can be run before they are defined (hoisting), function expressions cannot
+  - Has to do with asynchronous behavior
+- for in vs for of
+  - for in acts as an index/counter
+  - for of acts as an each loop
