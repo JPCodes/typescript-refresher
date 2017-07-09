@@ -48,13 +48,14 @@ function consolePrintOut(msg: string) : void {
 }
 
 // Custom types (alias type)
-  // Type<type|type2|etc>
+  // Type<type|type2|etc> <-- adding more this way is called a 'Union type'
 type PlayerArray = Array<string|number>;
 let playersDodgersNames : PlayerArray = ['Manny Ramirez', 'Mike Piazza'];
 let playersDodgersNumbers : PlayerArray = [99, 31];
 console.log(playersDodgersNames);
 console.log(playersDodgersNumbers);
 
+  // Allowing a variable to be assignable to multiple datatypes, also 'Union type'
 var names: string[]|string;
 names = ['james', 'jim'];
 console.log(names);
