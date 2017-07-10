@@ -3,6 +3,6 @@
     "sourceMap": true
   },
   "files": [
-    "typescript-closures.ts"
+    "typescript-classes.ts"
   ]
 }
