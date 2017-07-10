@@ -6,6 +6,8 @@ interface User {
   email : string;
   firstName : string;
   lastName : string;
+  // Optional attribute denoted by the question mark
+  contactInfo? : string;
 }
 
   // a function 'profileGreet' with a user parameter of type 'User'
