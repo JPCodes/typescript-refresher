@@ -29,7 +29,7 @@ var somePost = new Post({
     title: 'A title',
     body: 'A body'
 });
-console.log(somePost.title);
-console.log(somePost.body);
-somePost.printPost();
+// console.log(somePost.title);
+// console.log(somePost.body);
+// somePost.printPost();
 //# sourceMappingURL=typescript-interface-classes.js.map
