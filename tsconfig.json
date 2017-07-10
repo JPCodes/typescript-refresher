@@ -3,6 +3,6 @@
     "sourceMap": true
   },
   "files": [
-    "typescript-interface-functions.ts"
+    "typescript-interface-classes.ts"
   ]
 }
