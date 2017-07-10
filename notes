@@ -30,6 +30,7 @@ TypeScript
 - for in vs for of
   - for in acts as an index/counter
   - for of acts as an each loop
+- closures very object-like
 
 Workflow
   - Create/Open ts file

@@ -110,7 +110,7 @@ console.log(printAddress('main street', '123 st', 'OR'));
 // rest/splat
   // ...
   function teamLineup(team: string, ...players: string[]) {
-    console.log("team: ${team}");
+    console.log(`team: ${team}`);
     for (let player of players) {
       console.log(player);
     }
