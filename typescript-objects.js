@@ -1,5 +1,5 @@
 // Objects in Typescript
-// Sample of data returned from API
+// Sample of an object returned from API
 var realUser = {
     email: 'test@test.com',
     firstName: 'James',
@@ -9,6 +9,6 @@ var realUser = {
         return "Hello";
     }
 };
-console.log(realUser.email);
-console.log(realUser.sayHi());
+// console.log(realUser.email);
+// console.log(realUser.sayHi());
 //# sourceMappingURL=typescript-objects.js.map
