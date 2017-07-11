@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "module": "amd",
+    "target": "es6",
     "sourceMap": true
   },
   "files": [
-    "typescript-higher-order-functions-callbacks.ts"
+    "typescript-promises.ts"
   ]
 }
