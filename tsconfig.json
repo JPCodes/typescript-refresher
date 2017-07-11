@@ -3,6 +3,6 @@
     "sourceMap": true
   },
   "files": [
-    "typescript-this.ts"
+    "typescript-higher-order-functions-callbacks.ts"
   ]
 }
