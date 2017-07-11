@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
     "module": "amd",
-    "target": "es6",
-    "sourceMap": true
+    "target": "es6", // For Promises
+    "target": "ES5", // For Decorators
+    "experimentalDecorators": true, // For Decorators
+		"emitDecoratorMetadata" : true, // For Decorators
+		"sourceMap": true
   },
   "files": [
-    "typescript-promises-pt2.ts"
+    "decorator-intro.ts"
   ]
 }
