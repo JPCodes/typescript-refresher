@@ -1,7 +1,7 @@
 // TypeScript - Higher Order Functions and Callbacks
 // define a callback method
 var dbQuery = function () {
-    setTimeout(function () {
+    setTimeout(() => {
         console.log('Query results');
     }, 3000);
 };
