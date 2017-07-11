@@ -32,6 +32,10 @@ TypeScript
   - for of acts as an each loop
 - closures very object-like
 
+Async
+  - processes running at the same time
+  - non-blocking i/o (input/output) (ex: large DB query doesn't stop a page from loading)
+
 Workflow
   - Create/Open ts file
   - Add/edit code
