@@ -24,11 +24,15 @@ function doAsyncTask() {
   return somePromise;
 }
 
-doAsyncTask().then(
-  // parameter defined in reject/resolve argument
-  (val) => console.log(`Then Block: ${val}`),
-  (err) => console.error(`Then Block: ${err}`)
-);
+doAsyncTask()
+.then((val) => console.log(`Then Block: ${val}`))
+.catch((err) => console.error(err));
+
+// doAsyncTask().then(
+//   // parameter defined in reject/resolve argument
+//   (val) => console.log(`Then Block: ${val}`),
+//   (err) => console.error(`Then Block: ${err}`)
+// );
 
 // function doAsyncTaskSimple(cb) {
 //   setTimeout(() => {
